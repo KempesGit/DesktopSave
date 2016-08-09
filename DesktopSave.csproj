@@ -118,9 +118,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="fmLayoutName.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="fmLayoutName.cs" />
     <Compile Include="fmLayoutName.Designer.cs">
       <DependentUpon>fmLayoutName.cs</DependentUpon>
     </Compile>
