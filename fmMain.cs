@@ -192,16 +192,6 @@ namespace DesktopSave
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            /*
-            if (File.Exists(dsFileName))
-            {
-                MessageBoxHelper.PrepToCenterMessageBoxOnForm(this);
-                if (MessageBox.Show(System.IO.Path.GetFileName(dsFileName) + " alreade exist.\r\nDo you want to replace it?", "Confirm Save",
-                    MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
-                { return; }
-            }
-            */
-
             SaveFile(dsFileName);
         }
 
